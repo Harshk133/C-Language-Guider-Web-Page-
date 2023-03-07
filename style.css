@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@100&family=Phudu:wght@300&family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Labrada', serif;
+    font-family: 'Phudu', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.__left-drawver{
+    width: 15%;
+    position: fixed;
+    height: 100vh; 
+    background-color: skyblue;
+}
+
+._plates{
+    padding: 20px;
+}
+
+.active{
+    background-color: white;
+}
+
+._plates a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main{
+    /* background: rgb(156, 218, 219); */
+    width: 80%;
+    padding: 30px;
+    margin-left: 220px;
+    position: relative;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+._header_section{
+    height: 40px;
+    padding: 10px;
+    border-bottom: 1px solid red;
+    margin-bottom: 30px;
+    background-color: yellow;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+._main_content_container{
+    font-weight: bold;
+}
