@@ -5,11 +5,15 @@
     box-sizing: border-box;
 }
 
+/* Body CSS Styling Code */
+
 body{
     font-family: 'Labrada', serif;
     font-family: 'Phudu', cursive;
     font-family: 'Poppins', sans-serif;
 }
+
+/* Container CSS Styling Code */
 
 .container{
     display: flex;
@@ -36,6 +40,8 @@ body{
     text-decoration: none;
 }
 
+/* Main CSS Styling Code */
+
 .main{
     /* background: rgb(156, 218, 219); */
     width: 80%;
@@ -58,4 +64,8 @@ body{
 
 ._main_content_container{
     font-weight: bold;
+}
+
+.margin-need{
+    padding: 20px;
 }
