@@ -1,0 +1,9 @@
+.line{
+    width: 20%;
+    height: 2px;
+    background-color: aqua;
+}
+
+.flex{
+    display: flex;
+}

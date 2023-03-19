@@ -79,3 +79,34 @@ body{
 .myTable th{
     background-color: skyblue;
 }
+
+._content_width{
+    max-width: 90%;
+    width: 60%;
+}
+
+.footer{
+    background-color: #545454;
+    color: white;
+}
+
+.footer footer p{
+    text-align: center;
+}
+
+.buttons-tray button{
+    width: 105px;
+    height: 40px;
+    background-color: skyblue;
+    color: black;
+    font-weight: bolder;
+    border-radius: 12px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.buttons-tray button:hover{
+    background-color: aqua;
+    color: black;
+}
