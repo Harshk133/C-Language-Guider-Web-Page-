@@ -69,3 +69,13 @@ body{
 .margin-need{
     padding: 20px;
 }
+
+.myTable{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.myTable th{
+    background-color: skyblue;
+}
