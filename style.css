@@ -110,3 +110,7 @@ body{
     background-color: aqua;
     color: black;
 }
+
+._plates:hover{
+    background-color: white;
+}
