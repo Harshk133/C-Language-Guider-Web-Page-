@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Harsh Kale" />
+    <meta name="coder" content="Harsh Kale" />
+    <title>C Language Guider Web Page! ~ Introduction</title>
+    <!-- Css Files -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../utilities.css">
+    <link rel="shortcut icon" href="./img/Clogo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Left drawver -->
+        <div class="__left-drawver">
+            <div class="_plates">
+                <a href="../index.html">Introduction</a>
+            </div>
+            <div class="_plates">
+                <a href="../html/characterSet.html">Character Set</a>
+            </div>
+            <div class="_plates">
+                <a href="../html/ctokens.html">C Tokens</a>
+            </div>
+            <div class="_plates">
+                <a href="../html/constVarKey.html">Variables, Constant & Keywords</a>
+            </div>
+            <div class="_plates active">
+                <a href="../html/cInstructions.html">C Instructions</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div class="main _content_width">
+        <div class="_header_section">
+            <h3>C Instructions!</h3>
+        </div>
+        <div class="_main_content_container">
+            <article>
+                <p>C program may contain of all types of constants, variables and keywords. There type makes
+                    instructions which helps to perform various activities. Following are some types of instructions in
+                    C Programming Language.</p>
+                <ol class="margin-need">
+                    <li>Type Declaration instruction ... to declaring variables!</li>
+                    <li>Input/output instruction ... to give input data to our C program and show output data.</li>
+                    <li>Arithmetic instruction ... to perform arithmetic operations like addition, substraction, etc.
+                    </li>
+                    <li>Control instruction ... to control the sequence of execution!</li>
+                </ol>
+            </article>
+            <br>
+            <article>
+                <h4>1. Type Declaration instruction</h4>
+                <div class="margin-need">
+                    <p>This instruction is used to declare the type of variables being used in the program. The
+                        declaration tells the compiler what the variable name is. It specifies what type of data the
+                        variable will hold.</p>
+                    <i>Ex., </i>
+                    <p>
+                        int rate, amount; ... an integer variable! <br>
+                        float price, marks; ... a floating poing value stored variable! <br>
+                        char itemName, favChar, name; ... a single byte which hold the one character.
+                    </p>
+                </div>
+            </article>
+            <br>
+            <article>
+                <h4>2. Input/output instruction</h4>
+                <div class="margin-need">
+                    <p>The basic operation of every program is to accept the preliminary data from input (Input Devices like keyboard) and process that data and show desired output from (Output Devices like monitor) Monitor!</p>
+                    <p>In C Program data accepted using scanf() method or function and displayed by printf() function or method.</p>
+                    <p>In C their is standard I/O library which handles all input and output functios. The header file &lt;stdio.h&gt; called the standard input output header file, contains the required I/O functions. Whenever we use standard I/O function in program, we need to include this file in program by a statement #include&lt;stdio.h&gt; It tells the compiler that from this header file get the requried function like input output functions those are scan() & printf()!</p>
+                    <br>
+                    <p>The Standard I/O functions are: <br> <big><code>getchar(); <br> putchar(); <br> scanf(); <br> printf();</code></big></p>
+                    <br>
+                    <h5><b>Reading a Character: getchar()</b></h5>
+                    <p>To read a character from keyboard, the function <big><code>getchar()</code></big> is used.</p>
+                    <i>Syntax: </i> variable_name = getchar();
+                    <br>
+                    <i>ex: </i> char ch;
+                    <br>
+                    ch = getchar();
+                    <br>
+                    <p>When this statement is encountered, the computer waits until a key is pressed and then assigns his character value to getchar method. This value is stored in the variable name i.e. char!</p>
+                    <br>
+                    <h5><b>Writing a character: putchar()</b></h5>
+                    <p><big><code>putchar()</code></big> is used for writing one character at a time on display screen.</p>
+                    <i>Syntax: </i> putchar(var_name);
+                    <br>
+                    <i>ex: </i> character = 'c';
+                    <br>
+                    putchar(character);
+                    <br>
+                    <p>This statement display the character in the variable name on screen.</p>
+                    <br>
+                    <h5><b>Reading a string : gets()</b></h5>
+                    <p>To read whole string from keyboard, the method <big><code>gets()</code></big> is used.</p>
+                    <i>Syntax: </i> gets(var_name);
+                    <br>
+                    <i>ex: </i> char sentence[15];
+                    <br>
+                    gets(sentence);
+                    <br>
+                    <p>The method gets() reads the name of a string as a parameter and fills the string with character that input from the keyboard till by a pressing enter key on keyboard!</p>
+                    <br>
+                    <h5><b>Writing a string : puts()</b></h5>
+                    <p><big><code>puts()</code></big> is used for displaying the string stored in variable <q>sentence</q>, this is the same string that was read with <big><code>gets()</code></big>.</p>
+                    <i>Syntax: </i> puts(sentence);
+                </div>
+            </article>
+        </div>
+        <!-- Main Content Container Ends -->
+    </div>
+    </div>
+    <!-- Buttons for navigation -->
+    <div class="buttons-tray">
+        <center>
+            <a href="../html/constVarKey.html"><button>Previous</button></a>
+            <a href="#"><button>Next</button></a>
+        </center>
+    </div>
+    <br>
+
+    <!-- Footer -->
+    <div class="footer">
+        <footer>
+            <p><b>C Language Guider Web Page &copy; 2023</b></p>
+        </footer>
+    </div>
+</body>
+
+</html>
